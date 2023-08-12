@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import logo from "../Image/logo.png"
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="src\Image\logo.png"
+              src={logo}
               alt="logo"
               style={{ borderRadius: "50%" }}
             />
